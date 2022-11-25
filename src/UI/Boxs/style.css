@@ -1,0 +1,7 @@
+.cards {
+    display: inline-block;
+    padding: 14px 18px;
+    border-radius: 15px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}

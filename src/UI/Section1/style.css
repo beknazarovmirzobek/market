@@ -1,0 +1,19 @@
+.section-1 {
+    max-height: 462px;
+    background: #ECEAEA;
+    position: relative;
+}
+
+.sec_one {
+    width: 542px;
+}
+
+.boxs1 {
+    width: 560px;
+}
+
+.next {
+    position: absolute;
+    top: 200px;
+    right: 5px;
+}

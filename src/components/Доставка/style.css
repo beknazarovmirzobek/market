@@ -1,0 +1,8 @@
+.text {
+    width: 350px;
+    height: 600px;
+    background-color: #D9D9D9;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+}

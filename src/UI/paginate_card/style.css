@@ -1,0 +1,40 @@
+.paginate__card {
+    min-height: 238px;
+    width: 800px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.rating_indicator {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.paginate__card__title {
+    width: 477px;
+    font-size: 20px;
+    padding-left: 19px;
+}
+
+.paginate__card__infos {
+    width: 301px;
+    height: 120px;
+}
+
+.fontS {
+    font-size: 14px;
+}
+
+.paginate__btn-green {
+    background-color: #3EC70B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 33px;
+}

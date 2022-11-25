@@ -1,0 +1,88 @@
+.box-Sms {
+    position: relative;
+    width: 100%;
+    height: 628px;
+    background: #fff;
+}
+
+.Sms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -316px 0 0 -241px;
+    width: 482px;
+    height: 628px;
+    padding: 59px 61px 0 61px;
+}
+
+.Sms h1 {
+    color: #000;
+    letter-spacing: -0.005em;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 60px 0;
+}
+
+.Sms input {
+    width: 100%;
+    margin-bottom: 10px;
+    background: inherit;
+    outline: none;
+    padding: 18px 23px;
+    font-size: 24px;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 3px solid #000;
+    border-radius: 10px;
+    transition: box-shadow .5s ease;
+}
+
+.Sms input:focus {
+    box-shadow: inset 0 -5px 45px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.btn-green {
+    background-color: #3EC70B;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 144px;
+    color: #fff;
+    font-size: 29px;
+    font-weight: 800;
+    margin: 27px 0 14px 0;
+}
+
+.btn-gray {
+    background-color: #D9D9D9;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 29px;
+    font-weight: 800;
+    margin: 27px 0 14px 0;
+}
+
+.btn-green:hover {
+    color: #3EC70B;
+    width: 100%;
+    text-decoration: none;
+    background-color: inherit;
+    border: 3px solid #3EC70B;
+    border-radius: 10px;
+    padding: 12px 0px;
+}
+
+.btn-gray:hover {
+    color: #D9D9D9;
+    width: 100%;
+    text-decoration: none;
+    background-color: inherit;
+    border: 3px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 12px 0px;
+}

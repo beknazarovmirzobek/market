@@ -1,0 +1,42 @@
+manashunday post bulsin
+{
+    "name":"Muhiddin",
+    "phone":998974681999,
+    "password":"123"
+}
+https://api.stroymarkets.uz/register/
+
+
+sms tasdiqlash bu
+{
+    "phone":998974681999,
+    "sms_code":6029
+}
+https://api.stroymarkets.uz/register_accepted/
+
+
+login
+{
+    "username":"998939921408",
+    "password":"12345678"
+}
+https://api.stroymarkets.uz/login/
+
+
+Home page
+https://api.stroymarkets.uz/uz/api/v1/home/
+
+
+
+{
+    "product":1
+}
+https://api.stroymarkets.uz/uz/api/v1/post/like/
+
+
+get qilish
+https://api.stroymarkets.uz/uz/api/v1/get/like/
+
+
+delete
+https://api.stroymarkets.uz/uz/api/v1/like/id/

@@ -1,0 +1,32 @@
+.card_footer {
+    background-color: #3EC70B;
+    height: 47px;
+    border-radius: 0 0 10px 10px;
+}
+
+.card {
+    display: inline-block;
+    margin-right: 15px;
+    width: 276px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.like-div {
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    width: 30px;
+    float: right;
+    margin-right: 15px;
+}
+
+.card-images {
+    width: 270px;
+    max-height: 210px;
+}
+
+.card-box-img {
+    width: 270px;
+    height: 210px;
+}

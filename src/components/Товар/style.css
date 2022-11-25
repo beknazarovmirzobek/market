@@ -1,0 +1,76 @@
+.rating-product {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.product {
+    margin-top: 42px;
+}
+
+.product-like {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.product-img {
+    width: 500px;
+}
+
+.product-img__btn1 {
+    width: 99px;
+}
+
+.product-price {
+    width: 350px;
+    height: 426px;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 28px 25px;
+}
+
+.product-price_star {
+    padding: 3px;
+}
+
+.product-price_img {
+    width: 58px;
+    margin: 6px;
+}
+
+.product-price__btn {
+    width: 300px;
+    height: 63px;
+    color: white;
+    background-color: #3EC70B;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.reviews {
+    width: 970px;
+}
+
+.reviews-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 16px 0 11px;
+}
+
+.reviews-box__user_date {
+    font-size: 15px;
+    color: #565656;
+    font-weight: 500;
+}
+
+.yourMark_input {
+    width: 899px;
+    height: 196px;
+    padding: 20px;
+}

@@ -1,0 +1,26 @@
+.btn-laugh {
+    background-color: #EBEBEB;
+    width: 140px;
+    margin-left: 22px;
+}
+
+.cards_body {
+    padding-top: 38px;
+}
+
+.btn-laugh-see {
+    background-color: #EBEBEB;
+    width: 221px;
+    border-radius: 5px;
+    margin-top: 52px;
+    justify-content: center;
+}
+
+.btn-green {
+    background-color: #3EC70B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 22px;
+    padding: 8px 33px;
+}

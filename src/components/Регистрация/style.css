@@ -1,0 +1,115 @@
+.btn-white:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: inherit;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 12px 141px;
+}
+
+.btn-white.active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: inherit;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 12px 141px;
+}
+
+.btn-white {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 144px;
+    color: #3EC70B;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 27px 0;
+}
+
+.boxs-login {
+    position: relative;
+    width: 100%;
+    height: 724px;
+    background: linear-gradient(25.19deg, #3EC70B 4.65%, rgba(249, 230, 49, 0.93) 24.05%, #3EC70B 74.64%, #FFFFFF 109.04%, #F9E631 178.94%);
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -362px 0 0 -241px;
+    width: 482px;
+    height: 724px;
+    padding: 59px 61px 0 61px;
+}
+
+.login h1 {
+    color: #fff;
+    letter-spacing: -0.005em;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 60px 0;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 10px;
+    background: inherit;
+    border: none;
+    outline: none;
+    padding: 18px 23px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 3px solid #fff;
+    border-radius: 10px;
+    transition: box-shadow .5s ease;
+}
+
+.login input:focus {
+    box-shadow: inset 0 -5px 45px rgba(255, 255, 255, 0.4), 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.login input::placeholder {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.login-link1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.login-link2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.tel_input {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    background: inherit;
+    border: none;
+    outline: none;
+    padding: 18px 23px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.tel_input .input_2 {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    border: none;
+}
+
+.tel_input .input_2:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,60 @@
+.footer {
+    height: 388px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding-top: 71px;
+    margin-top: 41px;
+}
+
+p {
+    font-size: 16px;
+    color: #808080;
+    margin: 5px 0;
+}
+
+h5 {
+    margin-bottom: 15px;
+}
+
+.contact {
+    width: 369px;
+}
+
+.buyers {
+    width: 155px;
+}
+
+.number {
+    width: 279px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.subscription {
+    width: 411px;
+}
+
+.input-color {
+    background-color: #D9D9D9;
+}
+
+.btn-start {
+    width: 50px;
+    height: 40px;
+    background-color: #F9E631;
+    border: none;
+    border-radius: 10px;
+}
+
+.social-network {
+    width: 40px;
+    height: 40px;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+}
+
+.background {
+    background-color: #3A3A3A;
+}

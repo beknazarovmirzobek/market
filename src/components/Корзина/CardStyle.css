@@ -1,0 +1,33 @@
+.basked_cards {
+    width: 800px;
+    height: 188px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.card_l {
+    width: 212px;
+}
+
+.card_c {
+    width: 458px;
+}
+
+.fS-20 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.number_of_products {
+    width: 104px;
+    height: 32px;
+    border: 2px solid #3EC70B;
+    border-radius: 5px;
+    color: #3EC70B;
+    background-color: white;
+}
+
+.number_color {
+    color: #3EC70B;
+    background-color: white;
+}
