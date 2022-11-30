@@ -1,4 +1,27 @@
 .Cards {
-    padding-top: 23px;
+    padding-top: 13px;
     border-radius: 10px;
+}
+
+.cards_head {
+    margin-bottom: 18px;
+}
+
+.cards_head_title {
+    padding-top: 10px;
+    font-style: 26px;
+    line-height: 25.9px;
+    font-weight: 800;
+}
+
+.btn-next,
+.btn-prew {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: inherit;
+}
+
+.cards_body {
+    padding: 36px 0;
 }

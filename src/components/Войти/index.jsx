@@ -12,6 +12,7 @@ function index(props) {
 
     const [username,setUsername]=useState('');
     const [password,setPassword]=useState('');
+    const navigate=useNavigate();
 
     const submitLogin=async(e)=>{
        
@@ -24,7 +25,7 @@ function index(props) {
         try{
             const res=await Auth.setLogin(params);
             localStorage.setItem("token",res.data.access);
-            window.location.replace("/");
+            navigate("/");
         }
         catch(err){
             console.log(err);

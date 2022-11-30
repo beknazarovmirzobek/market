@@ -1,3 +1,8 @@
+.container-box {
+    width: 1334px;
+    margin: 0 auto;
+}
+
 .section-1 {
     max-height: 462px;
     background: #ECEAEA;

@@ -12,50 +12,70 @@ function index() {
     return (
         <>
             <section>    
-                <div className="container pt-5">
-                    <p><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span to="/Сантехника" className="text-dark text-decoration-none">Сантехника</span> </p>
-                    <h1 className="my-4">Сантехника</h1>
+                <div className="container-box pt-5">
+                    <p className="category_link mb-4"><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span to="/Сантехника" className="text-dark text-decoration-none">Сантехника</span> </p>
+                    <h1 className="catogary_name_h1">Сантехника</h1>
                 </div>
             </section>
             <section>
-                <div className="container">
+                <div className="container-box">
                     <div className="row">
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                                 <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
                         </div>
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                             <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
                         </div>
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                             <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
                         </div>
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                             <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
                         </div>
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                             <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
                         </div>
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                             <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
                         </div>
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                             <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
                         </div>
-                        <div className="col-3 py-2 d-flex justify-content-center">
+                        <div className="col-2 py-2 d-flex justify-content-center">
+                            <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
+                            <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
+                            </NavLink>
+                        </div>
+                        <div className="col-2 py-2 d-flex justify-content-center">
+                            <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
+                            <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
+                            </NavLink>
+                        </div>
+                        <div className="col-2 py-2 d-flex justify-content-center">
+                            <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
+                            <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
+                            </NavLink>
+                        </div>
+                        <div className="col-2 py-2 d-flex justify-content-center">
+                            <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
+                            <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
+                            </NavLink>
+                        </div>
+                        <div className="col-2 py-2 d-flex justify-content-center">
                             <NavLink to="/Подкатегория/Продукты-подкотегории" className="text-decoration-none">
                             <CategoryCard obj={{"title":"Ванны","img":`${img}`}}/>
                             </NavLink>
@@ -64,7 +84,7 @@ function index() {
                 </div>
             </section>
             <section>
-                <div className="container position-relative">
+                <div className="container-box position-relative">
                     <h3 className="mt-4">Особое предложение</h3><hr className="border border-1 border-dark"/>
                     <img src={button} alt="next-button" className="category_next-button"/>
                     <div className="d-inline-flex">

@@ -11,13 +11,13 @@ function index({obj,title} ) {
         <>
             <div className="Cards">
                 <div className="cards__head d-flex justify-content-between w-100">
-                    <h3 className="pt-3">{title}</h3>
-                    <div className="">
-                        <button className="btn m-0 p-0"><img src={btn_next} alt="" /></button>
-                        <button className="btn m-0 p-0"><img src={previous_next} alt="" /></button>
+                    <h3 className="cards_head_title">{title}</h3>
+                    <div className="p-0 m-0">
+                        <button className="btn-prew"><img src={btn_next} alt="" /></button>
+                        <button className="btn-next"><img src={previous_next} alt="" className=""/></button>
                     </div>
                 </div>
-                <hr className=" border-3 " />
+                <hr className=" border-3 m-0" />
                 <div className="cards_body d-inline-flex">
                     {
                         obj.map((obj)=>{

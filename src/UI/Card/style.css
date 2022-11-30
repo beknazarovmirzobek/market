@@ -1,24 +1,37 @@
 .card_footer {
     background-color: #3EC70B;
     height: 47px;
+    width: 100%;
     border-radius: 0 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 11px;
+    font-weight: 700;
+    font-style: 18px;
 }
 
-.card {
+.card_wrapper {
     display: inline-block;
-    margin-right: 15px;
+    position: relative;
     width: 276px;
+    height: 433px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    margin-right: 33px;
+}
+
+.liked-div {
+    width: 30px;
+    height: 25px;
+    float: right;
+    margin-right: 25px;
 }
 
 .like-div {
-    height: 30px;
+    height: 25px;
     background-color: inherit;
     border: none;
     width: 30px;
-    float: right;
-    margin-right: 15px;
 }
 
 .card-images {
@@ -29,4 +42,34 @@
 .card-box-img {
     width: 270px;
     height: 210px;
+    margin-bottom: 21px;
+}
+
+.products-card-name {
+    width: 221px;
+    height: 38px;
+    margin: auto;
+    font-style: 14px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.products-card-star {
+    margin: 10px 0;
+}
+
+.products-card-price {
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    font-size: 12px;
+    color: #565656;
+}
+
+.products-card-size {
+    color: #3EC70B;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
 }

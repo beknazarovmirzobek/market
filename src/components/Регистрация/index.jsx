@@ -1,15 +1,17 @@
 import React ,{ useRef ,useState,useEffect,useContext}from 'react';
 import "./style.css";
 import logotip from "../../assets/img/Логотип-login.png";
-import { Navigate, NavLink, useNavigate } from 'react-router-dom';
+import {  NavLink, useNavigate } from 'react-router-dom';
 import Auth from "../../API/auth/auth";
 import context from "../../context";
-import KodIzSms from '../Код из смс/index';
 
 
+export const data={
+    phone:"",
+};
 
 function index() {
-    const navigate = useNavigate();
+    const navigate=useNavigate();
     const [username,setUsername]=useState('');
     const [number,setNumber]=useState('');
     const [password,setPassword]=useState('');
@@ -25,17 +27,15 @@ function index() {
             "phone":`998${number}`,
             "password":password,
         }
+        data.phone=params.phone;
 
         try{
             const res=await Auth.setRegister(params);
-            console.log(res);
-            navigate('/КодИзСмс');
+            navigate("/КодИзСмс");
         }
         catch(err){
             console.log(err);
         }
-        const newPhone = params.phone;
-        <KodIzSms phone={newPhone} />
     }
     
     

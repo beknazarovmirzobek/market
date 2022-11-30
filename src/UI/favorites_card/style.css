@@ -11,3 +11,17 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
+
+.liked-div {
+    width: 30px;
+    height: 25px;
+    float: right;
+    margin-right: 25px;
+}
+
+.like-div {
+    height: 25px;
+    background-color: inherit;
+    border: none;
+    width: 30px;
+}

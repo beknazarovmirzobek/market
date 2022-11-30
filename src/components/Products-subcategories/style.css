@@ -1,3 +1,8 @@
+.container-box {
+    width: 1334px;
+    margin: 0 auto;
+}
+
 .advertising {
     height: 136px;
     width: 100%;

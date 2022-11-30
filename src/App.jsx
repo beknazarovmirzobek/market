@@ -18,6 +18,8 @@ import Войти from "./components/Войти";
 import Регистрация from "./components/Регистрация";
 import context from "./context.jsx";
 import КодИзСмс from "./components/Код из смс";
+import {data} from "./components/Регистрация";
+import language from "./lang/language";
 import req from "./API/API/API";
 import logOut from "./API/auth/LogOut";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -25,24 +27,21 @@ const UserContext=createContext();
 
 function App() {
   
-  
   const [logout,setLogout]=useState(true);
   // async function fetchData(){
   //   const response=await req.getPosts();
   //   console.log(response);
   // }
-
-  useEffect(()=>{
-    // fetchData();
-    // logOut();
-  },[]);
+  const [lang,setLang]=useState('ru');
 
   const token=localStorage.getItem("token");
 
   return (<>
-  <context.Provider value={{logout,setLogout}}>
+  
+  
+  <context.Provider value={{logout,setLogout,language,lang,setLang}}>
     {
-      logout?<Navbar/>:""
+      logout?<Navbar data={language} lang={lang} setLang={setLang}/>:""
     }
 
     <main>
@@ -57,16 +56,18 @@ function App() {
         <Route path="/Подкатегория/Продукты-подкотегории/Товар" element={<Товар />} />
         <Route path="/Войти" element={<Войти />} />
         <Route path="/Регистрация" element={<Регистрация/>}/>
-        <Route path="/КодИзСмс" element={<КодИзСмс/>}/>
+        <Route path="/КодИзСмс" element={<КодИзСмс data={data}/>}/>
         <Route path="/Избранное" element={<Избранное />} />
         <Route path="/Корзина" element={<Корзина />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </main>
     {
-      logout?<Footer/>:""
+      logout?<Footer data={language} lang={lang} setLang={setLang}/>:""
     }
 </context.Provider>
+
+
   </>
   )
 }

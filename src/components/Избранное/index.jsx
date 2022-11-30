@@ -1,5 +1,5 @@
-import React ,{useContext,useEffect} from 'react';
-import Card from "../../UI/favorites_card";
+import React ,{useContext,useEffect,useState} from 'react';
+import Card from "../../UI/favorites_card/index";
 import card1 from "../../assets/img/card-img-1.png";
 import {Navigate} from "react-router-dom";
 import context from "../../context"; 
@@ -8,19 +8,21 @@ import Auth from "../../API/auth/auth";
 function index() {
     const {setLogout,logout}=useContext(context);
     setLogout(true);
+    const [data1,setData1]=useState([]);
 
     const getData=async()=>{
-    try{
-        const res=await Auth.getLike();
-        console.log(res);
+        try{
+            const res=await Auth.getLike();
+            setData1(res.data);
+            
+        }
+        catch(err){
+            console.log(err);
+        }
     }
-    catch(err){
-        console.log(err);
-    }
-}
-
-    getData();
-
+    useEffect(()=>{
+        getData();
+    },[])
     return (
         <>
         {(!localStorage.getItem('token'))?<Navigate to="/Войти"/>:""}
@@ -28,8 +30,14 @@ function index() {
             <div className="container pt-5">
                 <h1>Избранное</h1>
                 <div className="cards_body d-inline-flex">
-                    <Card obj={{ "img": `${card1}`, "title": "Ламинат Woodstock Premium 833 Дуб шервуд медовый" }} />
-                    <Card obj={{ "img": `${card1}`, "title": "Ламинат Woodstock Premium 833 Дуб шервуд медовый" }} />
+                    {
+                        (data1.length>0?
+                        data1.map((el,i)=>{
+                            const data=el.product;
+                            return <Card obj={data}/>
+                        }):"")
+                        
+                    }
                 </div>
             </div>
         </section>

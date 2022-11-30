@@ -11,18 +11,18 @@ function index() {
     return (
         <>
             <section>
-                <div className="container pt-5">
-                    <p><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <NavLink to="/Подкатегория" className="text-dark text-decoration-none">Сантехника</NavLink> &lt; <span to="/Подкатегория/Продукты-подкотегории" className="text-dark text-decoration-none">Ванны</span></p>
-                    <h1 className="my-4">Ванны</h1>
+                <div className="container-box pt-5">
+                    <p className="category_link mb-4"><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <NavLink to="/Подкатегория" className="text-dark text-decoration-none">Сантехника</NavLink> &lt; <span to="/Подкатегория/Продукты-подкотегории" className="text-dark text-decoration-none">Ванны</span></p>
+                    <h1 className="catogary_name_h1">Ванны</h1>
                 </div>
             </section>
             <section>
-                <div className="container">
+                <div className="container-box">
                     <div className="advertising"></div>
                 </div>
             </section>
             <section>
-                <div className="container d-flex">
+                <div className="container-box d-flex">
                     <div className="price">
                         <p className="text-dark fw-bold fs-5">Цена, сум</p>
                         <div className="d-inline-flex mt-3">

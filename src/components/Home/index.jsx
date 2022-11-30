@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import Section1 from "../../UI/Section1";
 import ProductsCards from "../../UI/ProductsCards";
-import card1 from "../../assets/img/card-img-1.png";
 import req from "../../API/API/API";
 import context from "../../context";
 
@@ -20,7 +19,6 @@ function index(props) {
         setPopular(result.popular);
         setSale(result.sale);
         setBest(result.best);
-        console.log(result);
     };
     
     useEffect(() => {
@@ -32,17 +30,17 @@ function index(props) {
             <context.Provider value={{ category }}>
                 <Section1 />
                 <section>
-                    <div className="container">
+                    <div className="container-box">
                         <ProductsCards obj={popular} title="Popular"/>
                     </div>
                 </section>
                 <section>
-                    <div className="container">
+                    <div className="container-box">
                         <ProductsCards obj={sale}  title="Sale"/>
                     </div>
                 </section>
                 <section>
-                    <div className="container">
+                    <div className="container-box">
                         <ProductsCards obj={best}  title="Best"/>
                     </div>
                 </section>
