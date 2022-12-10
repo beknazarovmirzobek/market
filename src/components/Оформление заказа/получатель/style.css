@@ -1,0 +1,134 @@
+.container-box {
+    width: 1334px;
+    margin: 0 auto;
+}
+
+.recipient_header {
+    height: 80px;
+    padding: 23px 0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.recipient_body-left {
+    width: 751px;
+    height: 620px;
+    padding-top: 34px;
+    padding-right: 228px;
+}
+
+.recipient_body-left__title {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.005em;
+    color: #000000;
+    margin-bottom: 34px;
+}
+
+.recipient_body-left__adres {
+    border: 1px solid #BFBFBF;
+    border-radius: 10px;
+    width: 523px;
+    height: 57px;
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+    color: #808080;
+    margin-bottom: 13px;
+}
+
+.recipient_body-left__adres:active,
+.recipient_body-left__adres:focus,
+.recipient_body-left__comments:active,
+.recipient_body-left__comments:hover,
+.recipient_body-left__comments:focus {
+    outline: none;
+}
+
+.recipient_body-left_footer {
+    margin-top: 71px;
+    width: 523px;
+    height: 43px;
+}
+
+.recipient_body-left_footer_back {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+.recipient_body-left_footer_back:hover,
+.recipient_body-left_footer_back:focus {
+    color: #000;
+}
+
+.btn-recipient {
+    background: #3EC70B;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.recipient_body-right {
+    padding-top: 102px;
+    padding-left: 80px;
+}
+
+.recipient_body-right-order {
+    width: 422px;
+    height: 253px;
+    padding: 20px 19px 26px 27px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    position: relative;
+}
+
+.recipient_body-right_total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.005em;
+    color: #000000;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.recipient_body-right_text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.recipient_body-right__btn {
+    position: absolute;
+    width: 376px;
+    bottom: 26px;
+    display: block;
+    text-align: center;
+    padding-top: 18px;
+    height: 48px;
+    color: #BFBFBF;
+    background: #808080;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14.94px;
+    border: none;
+}
+
+.order-price__btn:hover {
+    color: #000;
+}

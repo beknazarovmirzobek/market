@@ -35,10 +35,10 @@
 }
 
 .price-right__paginate {
-    width: 100%;
+    width: 1075px;
     height: 2280px;
     border: 1px solid #B1B1B1;
     border-radius: 5px;
-    padding: 16px;
+    padding: 18px 3px 0 16px;
     margin-top: 10px;
 }

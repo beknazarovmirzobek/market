@@ -1,0 +1,15 @@
+.container-box {
+    width: 1334px;
+    margin: 0 auto;
+}
+
+.liked_h1 {
+    margin: 45px 0 9px 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 99.6%;
+}
+
+.cards_body {
+    padding: 36px 0;
+}

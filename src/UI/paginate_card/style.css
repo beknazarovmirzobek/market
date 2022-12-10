@@ -1,10 +1,20 @@
 .paginate__card {
     min-height: 238px;
-    width: 800px;
+    width: 1056px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     display: flex;
-    margin-bottom: 14px;
+    margin-bottom: 22px;
+    padding: 30px 36px 23px 26px;
+}
+
+.paginate__card-img {
+    width: 217px;
+    height: 185px;
+}
+
+.paginate__card__info {
+    width: 777px;
 }
 
 .rating_indicator {

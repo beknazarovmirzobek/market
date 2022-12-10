@@ -34,6 +34,10 @@
     width: 30px;
 }
 
+.like-div.ds-none {
+    visibility: hidden;
+}
+
 .card-images {
     width: 270px;
     max-height: 210px;

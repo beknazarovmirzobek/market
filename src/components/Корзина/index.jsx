@@ -14,33 +14,30 @@ function index(props) {
     return (
         <>{(!localStorage.getItem('token'))?<Navigate to="/Войти"/>:""}
             <section>
-                <div className="container">
-                    <div className="basket pt-5">
-                        <p><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span className="text-dark text-decoration-none">Корзина</span> </p>
-                        <div className="d-flex my-4">
-                            <h1 className="">Корзина</h1>
-                            <p className="pt-2 ps-3">2 товаров</p>
-                        </div>
+                <div className="container-box">
+                    <div className="basket">
+                        <p><NavLink to="/" className="basket_link text-decoration-none">Главная</NavLink> &lt; <span className="basket_link">Корзина</span> </p>
+                        <h1 className="basket_nameTitle">Корзина <span className="basket_product_count">2 товаров</span></h1>
                     </div>
                 </div>
             </section>
             <section>
-                <div className="container">
-                    <div className="basket d-flex">
+                <div className="container-box">
+                    <div className="basket-div d-flex">
                         <div className="basket-left">
                             <Cards card={{"img":`${img}`,"title":"Ламинат Woodstock Premium 833 Дуб шервуд медовый","price":"73 990"}}/>
                             <Cards card={{"img":`${img}`,"title":"Ламинат Woodstock Premium 833 Дуб шервуд медовый","price":"73 990"}}/>
                         </div>
                         <div className="basket-right">
-                            <div className="border-bottom d-flex py-3">
-                                <img src={group} alt="" className="h-50 me-3"/>
-                                <p>Бесплатно доставим в течении 12 часов </p>
+                            <div className="basket-right_box d-flex">
+                                <img src={group} alt="" className="basket-right_img"/>
+                                <p className="basket-right_title">Бесплатно доставим в течении 12 часов </p>
                             </div>
-                            <div className="pt-4">
-                                <h5 className="fw-bold">Итого <span className="float-end">23 799 000 uzs</span></h5>
-                                <p>Всего: 2 товара <span className="float-end">790кг</span></p>
+                            <div className="basket-right_box2">
+                                <h5 className="basket-right_box2_common">Итого <span className="float-end">23 799 000 uzs</span></h5>
+                                <p className="basket-right_box2_weight">Всего: 2 товара <span className="float-end">790кг</span></p>
                             </div>
-                            <button className="btn product-price__btn">Перейти к оформлению</button>
+                            <button className="basket-price__btn">Перейти к оформлению</button>
                         </div>
                     </div>
                 </div>

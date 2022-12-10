@@ -5,3 +5,33 @@
     border-radius: 10px;
     margin: 15px 0;
 }
+
+.container-box {
+    width: 1334px;
+    margin: 0 auto;
+}
+
+.basket {
+    margin: 38px 0 45px 0;
+}
+
+.basket_link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    text-decoration: none;
+    color: #000;
+}
+
+.basket_link:hover,
+.basket_link:active {
+    color: #000;
+}
+
+.basket_nameTitle {
+    margin: 23px 0 0 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 99.6%;
+}

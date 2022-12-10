@@ -5,9 +5,11 @@ import "./style.css"
 function index(props) {
     return (
         <section>
-            <div className="container py-5">
-                <p><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span to="/Оплата" className="text-dark text-decoration-none">Оплата</span> </p>
-                <h1 className="my-4">Оплата</h1>
+            <div className="container-box">
+                <div className="basket">
+                    <p><NavLink to="/" className="basket_link text-decoration-none">Главная</NavLink> &lt; <span to="/Оплата" className="basket_link">Оплата</span> </p>
+                    <h1 className="basket_nameTitle">Оплата</h1>
+                </div>
                 <div className="pt-5">
                     <div className="payment">
                         <p className="">Текст</p>

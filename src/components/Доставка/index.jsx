@@ -6,9 +6,11 @@ function index(props) {
     return (
         <>
         <section>
-            <div className="container py-5">
-                <p><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span className="text-dark text-decoration-none">Доставка</span> </p>
-                <h1 className="my-4">Доставка</h1>
+            <div className="container-box">
+                <div className="basket">
+                    <p><NavLink to="/" className="basket_link text-decoration-none">Главная</NavLink> &lt; <span className="basket_link">Доставка</span> </p>
+                    <h1 className="basket_nameTitle">Доставка</h1>
+                </div>
                 <div className="d-flex justify-content-between pt-5">
                     <div className="text">
                         <p className="text-dark my-auto">Текст</p>

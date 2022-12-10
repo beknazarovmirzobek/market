@@ -1,6 +1,6 @@
 .rating-product {
     position: absolute;
-    top: 10px;
+    top: 27px;
     left: 5px;
     margin: 0;
     color: white;
@@ -15,11 +15,11 @@
 .product-like {
     width: 30px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 23px;
 }
 
 .product-img {
-    width: 500px;
+    width: 530px;
 }
 
 .product-img__btn1 {
@@ -27,11 +27,11 @@
 }
 
 .product-price {
-    width: 350px;
+    width: 385px;
     height: 426px;
     border: 2px solid #D9D9D9;
     border-radius: 10px;
-    padding: 28px 25px;
+    padding: 36px 35px 0 32px;
 }
 
 .product-price_star {
@@ -53,8 +53,39 @@
     margin-top: 19px;
 }
 
+.product-characteristic {
+    width: 416px;
+    height: 475px;
+    padding: 52px 44px 0 37px;
+}
+
+.product-characteristic_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+.product-characteristic_text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #565656;
+}
+
 .reviews {
     width: 970px;
+    position: relative;
+}
+
+.reviews__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
 }
 
 .reviews-img {
@@ -69,8 +100,73 @@
     font-weight: 500;
 }
 
+.reviews-box2 {
+    margin-top: 32px;
+    position: relative;
+}
+
+.reviews-box_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+.reviews-box_text {
+    margin-top: 14px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+.reviews-box3 {
+    margin-top: 32px;
+    width: 119px;
+    position: relative;
+    left: 735px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.yourMark {
+    padding-left: 76px;
+}
+
 .yourMark_input {
     width: 899px;
     height: 196px;
     padding: 20px;
+}
+
+.container-box {
+    width: 1334px;
+    margin: 0 auto;
+}
+
+.basket {
+    margin: 38px 0 45px 0;
+}
+
+.basket_link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    text-decoration: none;
+    color: #000;
+}
+
+.basket_link:hover,
+.basket_link:active {
+    color: #000;
+}
+
+.basket_nameTitle {
+    margin: 23px 0 0 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 99.6%;
 }

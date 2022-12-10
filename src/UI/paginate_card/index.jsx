@@ -6,8 +6,10 @@ import rating from "../../assets/img/rating_green.png"
 function index({obj}) {
     return (
         <div className="paginate__card">
-            <img src={obj.img} alt="img" />
-            <div className="paginate__card__info pt-4">
+            <div className="paginate__card-img">
+                <img src={obj.img} alt="img" />
+            </div>
+            <div className="paginate__card__info">
                 <div className="d-flex">
                     <div className="rating position-relative">
                         <img src={rating} alt="" />

@@ -1,5 +1,5 @@
 .basked_cards {
-    width: 882px;
+    width: 892px;
     height: 188px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
@@ -20,6 +20,11 @@
     line-height: 27px;
     color: #222222;
     width: 458px;
+}
+
+.card_r {
+    width: 104px;
+    height: 32px;
 }
 
 .card_r-price {

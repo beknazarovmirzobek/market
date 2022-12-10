@@ -12,9 +12,11 @@ function index() {
     return (
         <>
             <section>    
-                <div className="container-box pt-5">
-                    <p className="category_link mb-4"><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span to="/Сантехника" className="text-dark text-decoration-none">Сантехника</span> </p>
-                    <h1 className="catogary_name_h1">Сантехника</h1>
+                <div className="container-box">
+                    <div className="basket">
+                        <p className="category_link mb-4"><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span to="/Сантехника" className="text-dark text-decoration-none">Сантехника</span> </p>
+                        <h1 className="catogary_name_h1">Сантехника</h1>
+                    </div>
                 </div>
             </section>
             <section>

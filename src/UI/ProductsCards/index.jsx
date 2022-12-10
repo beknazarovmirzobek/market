@@ -21,7 +21,7 @@ function index({obj,title} ) {
                 <div className="cards_body d-inline-flex">
                     {
                         obj.map((obj)=>{
-                            return <Card obj={obj} />
+                            return <Card obj={obj} hover={false}/>
                         })
                     }
                     {/* <Card obj={{ "img": `${obj.img}`, "title": `${obj.cardtitle}` }} />

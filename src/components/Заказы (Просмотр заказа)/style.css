@@ -1,0 +1,100 @@
+.container-box {
+    width: 1334px;
+    margin: 0 auto;
+}
+
+.order {
+    margin: 38px 0 45px 0;
+}
+
+.order_link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    text-decoration: none;
+    color: #000;
+}
+
+.order_link:hover,
+.order_link:active {
+    color: #000;
+}
+
+.order_nameTitle {
+    margin: 23px 0 0 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 99.6%;
+}
+
+.order_product_count {
+    font-size: 13px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.order-left {
+    width: 913px;
+}
+
+.order-right {
+    width: 407px;
+    height: 290px;
+    padding: 21px 32px 28px 34px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-left: 11px;
+}
+
+.order-right_total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.order-right_text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.order-right_time {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #000000;
+    margin: 18px 0 26px 0;
+}
+
+.order-price__btn {
+    display: block;
+    text-align: center;
+    padding-top: 17px;
+    height: 48px;
+    color: #000;
+    background: #ECEAEA;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    border: none;
+}
+
+.order-price__btn:hover {
+    color: #000;
+}

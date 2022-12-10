@@ -1,7 +1,11 @@
 import axios from "axios";
+import {useContext} from "react";
 const baseURL="https://api.stroymarkets.uz";
+import context from "../../context";
 
 
+// const {lang}=useContext(context);
+// console.log(lang);
 
 const data={
     setLogin: (params)=>  axios.post(`${baseURL}/login/`,params),
@@ -18,6 +22,6 @@ const data={
             "Content-Type": "application/json",
             'Authorization': `Bearer ${localStorage.getItem("token")}` 
         }
-      })
+      }),
 }
  export default data;

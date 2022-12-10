@@ -53,6 +53,7 @@ h5 {
     background-color: #F9E631;
     border: none;
     border-radius: 10px;
+    margin-top: 5px;
 }
 
 .social-network {
@@ -65,4 +66,11 @@ h5 {
 
 .background {
     background-color: #3A3A3A;
+}
+
+input#tell:hover,
+input#tell:focus,
+input#tell:active {
+    outline: none;
+    background: inherit;
 }

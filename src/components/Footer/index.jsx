@@ -37,7 +37,7 @@ function index({data,lang,setLang}) {
                         <h5>{t.benefit}</h5>
                         <p>{t.benefit_about}</p>
                         <div className="d-flex">
-                            <p className="number fw-bold fs-6 text-dark">+998 <input type="text" className=" border-0 border-start border-dark input-color"/></p>
+                            <p className="number fw-bold fs-6 text-dark">+998 <input type="text" className=" border-0 border-start border-dark input-color" id="tell"/></p>
                             <button className="btn-start ms-2"><img src={start} alt=""/></button>
                         </div>
                         <div className="d-flex gap-2 py-2">

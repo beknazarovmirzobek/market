@@ -6,10 +6,12 @@
 
 .card {
     display: inline-block;
-    margin-right: 15px;
+    position: relative;
     width: 276px;
+    height: 433px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    margin-right: 33px;
 }
 
 .liked-div {
@@ -24,4 +26,9 @@
     background-color: inherit;
     border: none;
     width: 30px;
+}
+
+.card-images {
+    width: 270px;
+    max-height: 210px;
 }

@@ -7,6 +7,8 @@
     font-weight: 500;
     font-size: 16px;
     color: #474747;
+    line-height: 100.6%;
+    letter-spacing: -0.005em;
 }
 
 .dropdown-toggle .dropdown-item {
@@ -19,6 +21,10 @@
     color: #474747;
 }
 
+.header-ul .navbar {
+    padding: 0;
+}
+
 .search {
     width: 600px;
     height: 45px;
@@ -27,6 +33,7 @@
     border-radius: 10px;
     background: #fff;
     margin: 0 35px;
+    padding: 0;
 }
 
 .color {
@@ -34,6 +41,7 @@
 }
 
 .sales-department {
+    padding: 5px 0 0 0;
     width: 182px;
     height: 35px;
     color: #565454;
@@ -49,9 +57,10 @@
     font-weight: 700;
 }
 
-.navbar {
+.navbar2 {
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
-    padding: 17px 0;
+    padding: 17px 0 0 0;
+    height: 80px;
 }
 
 input#search {
@@ -97,21 +106,42 @@ input#search:active {
 }
 
 .btn-liked {
-    margin-top: 6 px;
+    height: 41px;
+    margin-top: 0px;
     margin-left: 34px;
+    padding: 0;
     border: 0;
     background: inherit;
 }
 
 .saved_product {
     margin-left: 15px;
+    padding-top: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #565454;
+}
+
+.saved_product-price {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 99.6%;
+    letter-spacing: -0.005em;
+    color: #3EC70B;
+    padding-top: 4px;
 }
 
 .nav_lang {
     border: 0;
     background: inherit;
-    margin-top: 12px;
+    margin-top: 10px;
     color: #3281CA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100.6%;
+    letter-spacing: -0.005em;
 }
 
 .nav_lang:hover,

@@ -1,13 +1,27 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "./style.css";
 import clearButton from "../../assets/img/clear.png";
 import { NavLink } from 'react-router-dom';
 import cubes from "../../assets/img/Cubes.png";
 import line from "../../assets/img/Line.png";
 import PaginateCard from "../../UI/paginate_card";
-import paginateCardImg from "../../assets/img/removebg-preview 1.png"
+import req from "../../API/API/API";
+import paginateCardImg from "../../assets/img/removebg-preview 1.png";
 
 function index() {
+    const getData=async()=>{
+        try{
+            const res=await req.getProductsCategory();
+            console.log(res.data);
+            
+        }
+        catch(err){
+            console.log(err);
+        }
+    }
+    useEffect(()=>{
+        getData();
+    },[])
     return (
         <>
             <section>

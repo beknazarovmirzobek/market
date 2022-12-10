@@ -9,9 +9,11 @@ import время from "/src/assets/img/время.svg"
 function index(props) {
     return (
         <section>
-            <div className="container py-5">
-                <p><NavLink to="/" className="text-dark text-decoration-none">Главная</NavLink> &lt; <span to="/Контакты" className="text-dark text-decoration-none">Контакты</span> </p>
-                <h1 className="my-4">Контакты</h1>
+            <div className="container-box">
+                <div className="basket">
+                    <p><NavLink to="/" className="basket_link text-decoration-none">Главная</NavLink> &lt; <span to="/Контакты" className="basket_link">Контакты</span> </p>
+                    <h1 className="basket_nameTitle">Контакты</h1>
+                </div>
                 <div className=" d-flex justify-content-between pt-5">
                     <div className="contact-img">
                         <p className="">Фото офиса</p>

@@ -7,6 +7,8 @@ import Доставка from "./components/Доставка";
 import Оплата from "./components/Оплата";
 import Контакты from "./components/Контакты";
 import Заказы from "./components/Заказы";
+import Просмотр_заказа from "./components/Заказы (Просмотр заказа)";
+import Получатель from "./components/Оформление заказа/получатель";
 import Error from "./components/Error";
 import Избранное from "./components/Избранное";
 import Корзина from "./components/Корзина";
@@ -19,6 +21,9 @@ import Регистрация from "./components/Регистрация";
 import context from "./context.jsx";
 import КодИзСмс from "./components/Код из смс";
 import {data} from "./components/Регистрация";
+import Адрес from "./components/Оформление заказа/адрес";
+import Оплаты from "./components/Оформление заказа/способ оплаты";
+import Подтверить from "./components/Оформление заказа/подтверить заказ"
 import language from "./lang/language";
 import req from "./API/API/API";
 import logOut from "./API/auth/LogOut";
@@ -51,6 +56,11 @@ function App() {
         <Route path="/Оплата" element={<Оплата />} />
         <Route path="/Контакты" element={<Контакты />} />
         <Route path="/Заказы" element={<Заказы />} />
+        <Route path="/Просмотр_заказа" element={<Просмотр_заказа />} />
+        <Route path="/адрес" element={<Адрес />} />
+        <Route path="/получатель" element={<Получатель />} />
+        <Route path="/оплаты" element={<Оплаты />} />
+        <Route path="/подтверить" element={<Подтверить />} />
         <Route path="/Подкатегория" element={<Подкатегория />} />
         <Route path="/Подкатегория/Продукты-подкотегории" element={<ProductsSubcategory />} />
         <Route path="/Подкатегория/Продукты-подкотегории/Товар" element={<Товар />} />

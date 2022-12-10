@@ -1,9 +1,9 @@
 import React from 'react';
+import "./order_card.css";
 import like from "../../assets/img/discount 3.png";
-import del from "../../assets/img/delete.png";
-import "./CardStyle.css";
+import del from "../../assets/img/Корзина.png";
 
-function basket_card({card}) {
+function order_card({card}) {
     return (
         <>
             <div className="basked_cards d-flex mb-2">
@@ -14,22 +14,19 @@ function basket_card({card}) {
                     <h3 className="card_c_title">{card.title}</h3>
                     <div className="position-absolute bottom-0">
                     <button className="btn p-0"><img src={like} alt="" className="w-75"/></button>
-                    <button className="btn"><img src={del} alt=""/></button>
                     </div>
                 </div>
                 <div className="card_r h-100 position-relative">
                     <div className="position-absolute bottom-0">
                         <h5 className="card_r-price">{card.price} uzs</h5>
-                        <div className="number_of_products d-flex">
-                            <button className="number_of_products-minus">-</button>
-                            <p className="number_of_products-number">1</p>
-                            <button className="number_of_products-minus">+</button>
+                        <div className="d-flex justify-content-end">        
+                            <button className="btn p-0"><img src={del} alt="" className="w-75"/></button>   
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div> 
         </>
     );
 }
 
-export default basket_card;
+export default order_card;
